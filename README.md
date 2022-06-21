@@ -1,6 +1,6 @@
 
 # Introduction
-A company that I was interviewing with asked me to create this as a coding challenge. The challenge can be viewed below in the README.md file.
+A company that I was interviewing with asked me to create this as a coding challenge. The challenge can be viewed below. This
 
 ## Air Garage Coding Challenge
 Build a front end app that pulls the lowest rated lots given a region and displays them.
