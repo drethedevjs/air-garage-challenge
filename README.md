@@ -1,9 +1,11 @@
-# Air Garage Coding Challeng
-## Scope
 
+# Introduction
+A company that I was interviewing with asked me to create this as a coding challenge. The challenge can be viewed below in the README.md file.
+
+## Air Garage Coding Challenge
 Build a front end app that pulls the lowest rated lots given a region and displays them.
 
-## Instructions on Use
+### Instructions on Use
 
 1. Once you have the app cloned, navigate to the main app directory.
 2. Open the `SearchBar.js` file and add the bearer token to `line 8`.
