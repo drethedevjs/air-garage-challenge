@@ -24,7 +24,7 @@ function SearchBar() {
         console.log("data results", res.data.businesses);
         console.log("Variable results", parkingLotResults);
       });
-    }
+   }
     
     
   function handleUpdateRegion (event)
@@ -35,22 +35,21 @@ function SearchBar() {
 
   return (
     <>
-          <form>
+        <form>
           <div className="row">
             <div className="col-6">
                 <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Find Parking Lots</label>
-                <input onChange={handleUpdateRegion} type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
-                <button onClick={handleGetYelpResults} className="btn btn-primary">Submit</button>
-                  </div>
-                  </div>
+                  <label htmlFor="region" className="form-label">Find Parking Lots</label>
+                  <input onChange={handleUpdateRegion} type="text" className="form-control" id="region" />
+                  <button onClick={handleGetYelpResults} className="btn btn-primary">Submit</button>
                 </div>
-           </form>
-           {parkingLotResults?.map(lot =>
-            {
-              return (
-              <Result info={lot} />)
-            })}
+              </div>
+            </div>
+         </form>
+
+         {parkingLotResults?.map(lot => {
+            return <Result info={lot} />
+          })}
       </>
   );
 }
